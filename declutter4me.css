@@ -2,22 +2,7 @@
 
 /* Hide various elements */
 .panelSubtextContainer_b2ca13, /* Hide status/username viewer near mic button */
-.newMemberBadge_ed263a, /* No "New member" badge */
-div[class*="listItem"]:has(div[aria-label="Explore Discoverable Servers"]), /* Hide 'Explore Discoverable Servers' in server page */
-.text_e40c16, /* Remove loading quote */
-.threadSuggestionBar_b11c5e, /* Hide thread suggestion in reply */
-div.themed_a0.item_a0.item_c2739c:nth-of-type(4), /* No blocked section in friends list */
-.nowPlayingColumn_c2739c, /* No "Actie now" tab */
-button[aria-label="Open GIF picker"], /* Hide GIF picker button */
-button[aria-label="Open sticker picker"], /* Hide sticker picker button */
-[class^=bar__]:has([class^=voiceChannelsIcon__]), /* Hide "x in vc" scroll indicator */
 [aria-label="Help"], /* Removes "Support" question mark button */
-[aria-label="Show Summaries"], /* Remove Summaries button in topbar */
-[aria-label="Start Video Call"], /* remove video call button */
-[aria-label="Show User Profile"], /* Remove Show User Profile button */
-[aria-label="Add Friends to DM"], /* Remove Add Friends to DM button */
-[aria-label="Threads"], /* Remove Threads button in topbar */
-[aria-label="Notification Settings"], /* Remove Notification Settings button in topbar */
 .divider_d2b491.divider_ae36e5 /* Remove dividing line in profile */ {
     display: none !important;
 }
